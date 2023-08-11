@@ -1,1 +1,19 @@
 /* your code */
+ table {
+            border-collapse: collapse;
+            width:100%
+        }
+          
+        th
+        {
+             background: lightblue;
+			text-align: center; 
+			
+        }
+tr{
+	text-align: center; 
+}
+tr:nth-child(even) {  
+  background-color: gray;  
+	
+}  
